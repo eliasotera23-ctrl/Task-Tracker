@@ -2,13 +2,14 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 
 <body>
-    <div>
+    <div class="container">
         <h1>Task Tracker
         </h1>
         <p> Stay on top of your task</p>
@@ -16,31 +17,20 @@
 
         <div>
 
-            <input type="text" placeholder="task one">
-            <button> Add task</button>
+            <input class="input-text" type="text" placeholder="task one">
+            <button class="input-button">Add</button>
         </div>
 
         <div>
-            <span> All</span>
-            <span> Active</span>
-            <span> Completed</span>
+            <button class="input-all"> All</button>
+            <button class="input-active"> Active</button>
+            <button class="input-completed"> Completed</button>
         </div>
 
-        <div>
-            <div>
+       
 
-                <input type="Checkbox"> <p>Task one</p>
-            </div>
-
-
-            <div>
-
-                <button>Delete</button>
-            </div>
-        </div>
-
-        <div>
-            <div>
+        <div class="clear-container">
+            <div class="clear-text">
 
                 <p> 1 total</p>
                 <p> 1 remaining</p>
@@ -48,7 +38,7 @@
 
             <div>
 
-                <button>Clear Completed</button>
+                <button class="input-clear">Clear Completed</button>
 
             </div>
         </div>
